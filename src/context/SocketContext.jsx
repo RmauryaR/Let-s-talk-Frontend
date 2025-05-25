@@ -7,7 +7,7 @@ import { useClient, useMicrophoneAndCameraTracks } from '../AgoraSetup'
  
 export const SocketContext = createContext();
 
-const WS = 'http://localhost:6001';
+const WS = 'https://let-s-talk-backend.onrender.com';
 
 const socket = socketIoClient(WS);
 
